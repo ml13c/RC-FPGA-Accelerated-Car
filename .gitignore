@@ -1,0 +1,32 @@
+# local build output
+build/
+*.vcd
+*.wdb
+*.jou
+*.log
+*.str
+*.pb
+*.bit
+*.bin
+
+# vivado generated files
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.xpr
+*.XPR
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# os/editor
+.DS_Store
+Thumbs.db
+.vscode/
